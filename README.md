@@ -11,12 +11,26 @@
 
 ## Introduction
 
+As we extend our understanding of circuits, we see that we can build _real things_ that have _real functions_. This
+assignment asks you to build a digital padlock which can:
+
+* store a three-bit combination
+* hide this three-bit combination to secure the circuit
+* evaluate input of a three-bit combination
+* notify the user that entered combination matches the programmed combination, when true
+
 * `2` 74HC02 (`NOR`)
 * `1` 74HC04 (`NOT`)
 * `2` 74HC08 (`AND`)
 * `1` 74HC32 (`OR`)
-* `1` 830-pin breadboard
-* as many transistors as you want
+* `2` 4-input DIP switches
+* `2` 830-pin breadboards
+* `1` LED (for final circuit)
+  * To test the circuit,you're alloed `5` total LEDs
+* as many transistors as desired
+
+Finishing this circuit will require the correct application of circuits we've learned this week
+as well as incorporating logic similar to the `Equality Comparator` (an earlier `Hack`).
 
 ## Instructions
 
@@ -31,6 +45,7 @@ or a course TL_. (This means that you'll have to have `commit`s authored by one 
 ## Assignment "Hack"
 
 > Note: to complete this hack, you will need to request permission to use up to two (2) additional chips. You will
-> need to request these of the instructor or a TL and document them in the `Hack`'s `report.md`.
+> need to request these of the instructor or a TL and document them in the `Hack`'s `report.md`. `Hack`ers are also
+> permitted an additional switch in order to incorporate the `Enable` function of the involved circuit(s).
 
 How much work does it take to turn this into a `4` bit combination lock? Do this hack, and you'll find out.
