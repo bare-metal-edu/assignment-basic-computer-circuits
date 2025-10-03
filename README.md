@@ -20,14 +20,14 @@ assignment asks you to build a digital padlock which can:
 * notify the user that entered combination matches the programmed combination, when true
   * if and only if true, an "unlock" light should latch high
 
+* `1` 74LS86 (`XOR`)
 * `2` 74HC02 (`NOR`)
-* `1` 74HC04 (`NOT`)
-* `2` 74HC08 (`AND`)
-* `1` 74HC32 (`OR`)
+* `2` 74HC04 (`NOT`)
+* `3` 74HC08 (`AND`)
 * `2` 4-input DIP switches
 * `2` 830-pin breadboards
 * `1` LED (for final circuit)
-  * To test the circuit,you're alloed `5` total LEDs
+  * To test the circuit,you're allowed `5` total LEDs
 * as many transistors as desired
 
 Finishing this circuit will require the correct application of circuits we've learned this week
@@ -45,8 +45,9 @@ or a course TL_. (This means that you'll have to have `commit`s authored by one 
 
 ## Assignment "Hack"
 
-> Note: to complete this hack, you will need to request permission to use up to two (2) additional chips. You will
-> need to request these of the instructor or a TL and document them in the `Hack`'s `report.md`. `Hack`ers are also
-> permitted an additional switch in order to incorporate the `Enable` function of the involved circuit(s).
+> Note: to complete this hack:
+> * you will need to request permission to use up to two (2) additional chipsl
+>   * request these of the instructor or a TL and document them in the `Hack`'s `report.md`. 
+> * `Hack`ers are also permitted an additional switch in order to incorporate the `Enable` function of the involved circuit(s).
 
 How much work does it take to turn this into a `4` bit combination lock? Do this hack, and you'll find out.
