@@ -15,9 +15,10 @@ As we extend our understanding of circuits, we see that we can build _real thing
 assignment asks you to build a digital padlock which can:
 
 * store a three-bit combination
-* hide this three-bit combination to secure the circuit
+* allow a programmer to "hide" this three-bit combination to secure the circuit
 * evaluate input of a three-bit combination
 * notify the user that entered combination matches the programmed combination, when true
+  * if and only if true, an "unlock" light should latch high
 
 * `2` 74HC02 (`NOR`)
 * `1` 74HC04 (`NOT`)
