@@ -19,6 +19,10 @@ assignment asks you to build a digital padlock which can:
 * evaluate input of a three-bit combination
 * notify the user that entered combination matches the programmed combination, when true
   * if and only if true, an "unlock" light should latch high
+ 
+Here is a crude block diagram demonstrating the circuit:
+
+<img width="960" height="540" alt="XX - Drawings" src="https://github.com/user-attachments/assets/b8503f77-f60b-4c5e-b95c-baed53316cce" />
 
 * `1` 74LS86 (`XOR`)
 * `2` 74HC02 (`NOR`)
@@ -35,7 +39,7 @@ as well as incorporating logic similar to the `Equality Comparator` (an earlier 
 
 ## Instructions
 
-You must complete and demonstrate this circuit to  an instructor or TL using your breadboard and associated parts. This 
+You must complete and demonstrate this circuit to an instructor or TL using your breadboard and associated parts. This 
 can be done any time during the duration of the assignment until the due date. 
 
 In addition, you must record your findings in the `report.md` file in the `docs/` directory. This documentation will require you to fill
