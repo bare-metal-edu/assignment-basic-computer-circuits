@@ -30,6 +30,10 @@ assignment asks you to build a digital padlock which can:
   * To test the circuit,you're allowed `5` total LEDs
 * as many transistors as desired
 
+Here is a crude block diagram demonstrating the circuit:
+
+<img width="960" height="540" alt="XX - Drawings" src="https://github.com/user-attachments/assets/a2df3156-1f64-4918-be04-64b1aa32b6a9" />
+
 Finishing this circuit will require the correct application of circuits we've learned this week
 as well as incorporating logic similar to the `Equality Comparator` (an earlier `Hack`).
 
